@@ -7,8 +7,8 @@ lazy val commonSettings: Seq[Def.Setting[_]] = Seq(
     "com.47deg" %% "classy-core" % caseClassyV,
     "com.47deg" %% "classy-config-typesafe" % caseClassyV,
     "com.47deg" %% "classy-generic" % caseClassyV,
-    "com.whisk" %% "docker-testkit-scalatest" % "0.9.6" % IntegrationTest,
-    "com.whisk" %% "docker-testkit-impl-spotify" % "0.9.6" % IntegrationTest,
+  //  "com.whisk" %% "docker-testkit-scalatest" % "0.9.6" % IntegrationTest,
+  //  "com.whisk" %% "docker-testkit-impl-spotify" % "0.9.6" % IntegrationTest,
   )
 )
 
@@ -38,6 +38,7 @@ lazy val storer = (project in file("storer"))
   .settings(commonSettings,
     Defaults.itSettings)
   .settings(libraryDependencies ++= Seq(
-    "io.getquill" %% "quill-cassandra" % "2.3.2",
-    "org.cassandraunit" % "cassandra-unit" % "3.3.0.2" % IntegrationTest)
+   // "io.getquill" %% "quill-cassandra" % "3.5.0"
+   "io.getquill" %% "quill-cassandra" % "2.5.4"
+   )
   )

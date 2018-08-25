@@ -1,0 +1,3 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/mitsaravanan/twitter-sentiment/storer/src/main/resources/application.conf,/home/mitsaravanan/twitter-sentiment/storer/target/scala-2.12/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/mitsaravanan/twitter-sentiment/storer/src/main/resources/twittersentiment.cql,/home/mitsaravanan/twitter-sentiment/storer/target/scala-2.12/classes/twittersentiment.cql)[0m

@@ -1,0 +1,7 @@
+[0m[[0m[0minfo[0m] [0m[0m/home/mitsaravanan/twitter-sentiment/storer/src/it/scala/CassandraPersisterIntegrationSpec.scala:40:39: SELECT message_id, data FROM tweet_message WHERE message_id = ?[0m
+[0m[[0m[0minfo[0m] [0m[0m          val returnedTweets = ctx.run(q)[0m
+[0m[[0m[0minfo[0m] [0m[0m                                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/mitsaravanan/twitter-sentiment/storer/src/it/scala/IntegrationTestConfig.scala:11:8: Class storer.integrationConfig$ differs only in case from storer.IntegrationConfig$. Such classes will overwrite one another on case-insensitive filesystems.[0m
+[0m[[0m[33mwarn[0m] [0m[0mobject integrationConfig {[0m
+[0m[[0m[33mwarn[0m] [0m[0m       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
